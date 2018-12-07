@@ -11,34 +11,39 @@ export default class MessengerScreen extends Component{
                     <NavBarStyle3 LeftIcon={require('../images/navbar/back.png')}
                                   Title={"Tin nhắn"}
                                   RightIcon ={require('../images/navbar/removeICO.png')}
-                                  styleTextInput={{width: 280}} styleIconRight={{width: 14, height: 14, marginTop: 20}}/>
+                                  styleTextInput={{width: 280}} styleIconRight={{width: 14, height: 14, marginTop: 20}}
+                                  OnPress={()=>this.props.navigation.goBack()}
+                    />
                 </View>
                 <ScrollView style={styles.main}>
                     <View style={styles.sectionMessage}>
-                        <MessageList avatarUrl={require('../images/users/hg1.jpg')}
-                                     username={"Uyen Huynh"}
-                                     message={"Cho mình đặt hàng"}
+                        <MessageList avatarUrl={require('../images/users/hg4.jpg')}
+                                     username={"Phương Uyên"}
+                                     message={"Bạn ở đâu"}
                                      numMess={require('../images/message/m1.png')} time={"9:30"} date={"20/11/2018"}
-                                     imageLeft={require('../images/productImage/donghodeotay2.jpg')}
+                                     imageLeft={require('../images/message/messageiamge.jpeg')}
                                      styleDetail={{color:'#FF0007'}}
+                                     OnPress={()=>this.props.navigation.navigate('MessageDetailScreen')}
                         />
                     </View>
                     <View style={styles.sectionMessage}>
-                        <MessageList avatarUrl={require('../images/users/hg4.jpg')}
+                        <MessageList avatarUrl={require('../images/users/hg1.jpg')}
                                      username={"Mỹ Vân"}
                                      message={"Bạn tới chỗ hẹn chưa?"}
                                      numMess={require('../images/message/m2.png')} time={"10:12"} date={"20/11/2018"}
                                      imageLeft={require('../images/productImage/donghodeotay1.jpg')}
                                      imageRight={require('../images/productImage/donghodeotay2.jpg')}
                                      styleDetail={{color:'#FF0007'}}
+                                     OnPress={()=>this.props.navigation.navigate('MessageDetailScreen')}
                         />
                     </View>
                     <View style={styles.sectionMessage}>
                         <MessageList avatarUrl={require('../images/users/hg7.jpg')}
-                                     username={"Phương Uyên"}
+                                     username={"Vy Vy"}
                                      message={"Có giảm giá không bạn?"}
                                      numMess={require('../images/message/m1.png')} time={"15:30"} date={"20/11/2018"}
                                      styleDetail={{color:'#FF0007'}}
+                                     OnPress={()=>this.props.navigation.navigate('MessageDetailScreen')}
                         />
                     </View>
                     <View style={styles.sectionMessage}>
@@ -46,6 +51,7 @@ export default class MessengerScreen extends Component{
                                      username={"Nhật Minh"}
                                      message={"Cảm ơn"}
                                      time={"6:50"} date={"20/11/2018"}
+                                     OnPress={()=>this.props.navigation.navigate('MessageDetailScreen')}
                         />
                     </View>
                     <View style={styles.sectionMessage}>
@@ -54,6 +60,7 @@ export default class MessengerScreen extends Component{
                                      message={"Hẹn gặp bạn lần sau"}
                                      time={"7:30"} date={"20/11/2018"}
                                      imageLeft={require('../images/productImage/donghodeotay2.jpg')}
+                                     OnPress={()=>this.props.navigation.navigate('MessageDetailScreen')}
                         />
                     </View>
 

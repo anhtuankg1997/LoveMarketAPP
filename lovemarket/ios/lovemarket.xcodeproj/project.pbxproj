@@ -56,6 +56,19 @@
 		FAFBA812C8B84166A8D747D2 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ECA65FC509D4276B23FE5F7 /* SimpleLineIcons.ttf */; };
 		338844FC5F4B404A806F2E20 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92C978E86D1645B1BB2707A0 /* Zocial.ttf */; };
 		4A2AC64C0CC8449B8AAA5D5B /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C12CDF4CA4684108AC1B2E3A /* libBVLinearGradient.a */; };
+		8DFC8869FE3C4F2196F62C38 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B74599B1914503A37DF0B2 /* libAirMaps.a */; };
+		CDD16DCA71AB463E9406870D /* SourceSerifPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AA7AF1756A73458FB1929232 /* SourceSerifPro-Black.otf */; };
+		FD5E1E22621D43A38FF35D2A /* SourceSerifPro-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = C7AE875EF9D3440B82FACBEA /* SourceSerifPro-BlackIt.otf */; };
+		BEE86F016B0E42E29D44F60B /* SourceSerifPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 42874ED338DF43F7932E63AE /* SourceSerifPro-Bold.otf */; };
+		0BDC720DE6C54BE58B61015A /* SourceSerifPro-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB3CC8C9CFF24423820395B6 /* SourceSerifPro-BoldIt.otf */; };
+		8FF11B93F9E14F2A82A4AEB3 /* SourceSerifPro-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0D48252214264A3C8774DD1C /* SourceSerifPro-ExtraLight.otf */; };
+		7DF512E5A16547D099287606 /* SourceSerifPro-ExtraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = BAFA80B36B8A413F8A81AF6B /* SourceSerifPro-ExtraLightIt.otf */; };
+		08259EBB5F6A4590BEB77984 /* SourceSerifPro-It.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3A77B9E501034D30A62BA944 /* SourceSerifPro-It.otf */; };
+		307D7067D7554738AD7571B9 /* SourceSerifPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7AB8088721E0484398EA2ED2 /* SourceSerifPro-Light.otf */; };
+		39E79E998B8A468FBF7137EC /* SourceSerifPro-LightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2345C113BB8477F8F766754 /* SourceSerifPro-LightIt.otf */; };
+		9549F3CA0A944122AE3F933D /* SourceSerifPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 79ACAC5C958E407899977613 /* SourceSerifPro-Regular.otf */; };
+		298E7112517343FC9074842D /* SourceSerifPro-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A2C24C5CDB2E415FA4AF17A8 /* SourceSerifPro-Semibold.otf */; };
+		30D4549758F5414CBED68562 /* SourceSerifPro-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8F17F1CE4774386847140D5 /* SourceSerifPro-SemiboldIt.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -383,6 +396,20 @@
 		92C978E86D1645B1BB2707A0 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		CA911CA225DE4BD2B3B21FF3 /* BVLinearGradient.xcodeproj */ = {isa = PBXFileReference; name = "BVLinearGradient.xcodeproj"; path = "../node_modules/react-native-linear-gradient/BVLinearGradient.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		C12CDF4CA4684108AC1B2E3A /* libBVLinearGradient.a */ = {isa = PBXFileReference; name = "libBVLinearGradient.a"; path = "libBVLinearGradient.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		EF1CAE27AAB14242B214F13B /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		88B74599B1914503A37DF0B2 /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AA7AF1756A73458FB1929232 /* SourceSerifPro-Black.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-Black.otf"; path = "../assets/fonts/SourceSerifPro-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C7AE875EF9D3440B82FACBEA /* SourceSerifPro-BlackIt.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-BlackIt.otf"; path = "../assets/fonts/SourceSerifPro-BlackIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42874ED338DF43F7932E63AE /* SourceSerifPro-Bold.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-Bold.otf"; path = "../assets/fonts/SourceSerifPro-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CB3CC8C9CFF24423820395B6 /* SourceSerifPro-BoldIt.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-BoldIt.otf"; path = "../assets/fonts/SourceSerifPro-BoldIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0D48252214264A3C8774DD1C /* SourceSerifPro-ExtraLight.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-ExtraLight.otf"; path = "../assets/fonts/SourceSerifPro-ExtraLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BAFA80B36B8A413F8A81AF6B /* SourceSerifPro-ExtraLightIt.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-ExtraLightIt.otf"; path = "../assets/fonts/SourceSerifPro-ExtraLightIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A77B9E501034D30A62BA944 /* SourceSerifPro-It.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-It.otf"; path = "../assets/fonts/SourceSerifPro-It.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7AB8088721E0484398EA2ED2 /* SourceSerifPro-Light.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-Light.otf"; path = "../assets/fonts/SourceSerifPro-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F2345C113BB8477F8F766754 /* SourceSerifPro-LightIt.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-LightIt.otf"; path = "../assets/fonts/SourceSerifPro-LightIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		79ACAC5C958E407899977613 /* SourceSerifPro-Regular.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-Regular.otf"; path = "../assets/fonts/SourceSerifPro-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A2C24C5CDB2E415FA4AF17A8 /* SourceSerifPro-Semibold.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-Semibold.otf"; path = "../assets/fonts/SourceSerifPro-Semibold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D8F17F1CE4774386847140D5 /* SourceSerifPro-SemiboldIt.otf */ = {isa = PBXFileReference; name = "SourceSerifPro-SemiboldIt.otf"; path = "../assets/fonts/SourceSerifPro-SemiboldIt.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,6 +440,7 @@
 				C20D695BAF3F4C4DBC32BD63 /* libRNGestureHandler.a in Frameworks */,
 				339871A11C2442F393AE6E12 /* libRNVectorIcons.a in Frameworks */,
 				4A2AC64C0CC8449B8AAA5D5B /* libBVLinearGradient.a in Frameworks */,
+				8DFC8869FE3C4F2196F62C38 /* libAirMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,6 +631,7 @@
 				D5770A4884B644BAB5A5BD2C /* RNGestureHandler.xcodeproj */,
 				36F62A84F0C1412FA8338BA2 /* RNVectorIcons.xcodeproj */,
 				CA911CA225DE4BD2B3B21FF3 /* BVLinearGradient.xcodeproj */,
+				EF1CAE27AAB14242B214F13B /* AirMaps.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -669,6 +698,18 @@
 				256DCF8A4BED447EB24FB559 /* Octicons.ttf */,
 				4ECA65FC509D4276B23FE5F7 /* SimpleLineIcons.ttf */,
 				92C978E86D1645B1BB2707A0 /* Zocial.ttf */,
+				AA7AF1756A73458FB1929232 /* SourceSerifPro-Black.otf */,
+				C7AE875EF9D3440B82FACBEA /* SourceSerifPro-BlackIt.otf */,
+				42874ED338DF43F7932E63AE /* SourceSerifPro-Bold.otf */,
+				CB3CC8C9CFF24423820395B6 /* SourceSerifPro-BoldIt.otf */,
+				0D48252214264A3C8774DD1C /* SourceSerifPro-ExtraLight.otf */,
+				BAFA80B36B8A413F8A81AF6B /* SourceSerifPro-ExtraLightIt.otf */,
+				3A77B9E501034D30A62BA944 /* SourceSerifPro-It.otf */,
+				7AB8088721E0484398EA2ED2 /* SourceSerifPro-Light.otf */,
+				F2345C113BB8477F8F766754 /* SourceSerifPro-LightIt.otf */,
+				79ACAC5C958E407899977613 /* SourceSerifPro-Regular.otf */,
+				A2C24C5CDB2E415FA4AF17A8 /* SourceSerifPro-Semibold.otf */,
+				D8F17F1CE4774386847140D5 /* SourceSerifPro-SemiboldIt.otf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1135,6 +1176,18 @@
 				6510EEFB32DB4630B074CE1A /* Octicons.ttf in Resources */,
 				FAFBA812C8B84166A8D747D2 /* SimpleLineIcons.ttf in Resources */,
 				338844FC5F4B404A806F2E20 /* Zocial.ttf in Resources */,
+				CDD16DCA71AB463E9406870D /* SourceSerifPro-Black.otf in Resources */,
+				FD5E1E22621D43A38FF35D2A /* SourceSerifPro-BlackIt.otf in Resources */,
+				BEE86F016B0E42E29D44F60B /* SourceSerifPro-Bold.otf in Resources */,
+				0BDC720DE6C54BE58B61015A /* SourceSerifPro-BoldIt.otf in Resources */,
+				8FF11B93F9E14F2A82A4AEB3 /* SourceSerifPro-ExtraLight.otf in Resources */,
+				7DF512E5A16547D099287606 /* SourceSerifPro-ExtraLightIt.otf in Resources */,
+				08259EBB5F6A4590BEB77984 /* SourceSerifPro-It.otf in Resources */,
+				307D7067D7554738AD7571B9 /* SourceSerifPro-Light.otf in Resources */,
+				39E79E998B8A468FBF7137EC /* SourceSerifPro-LightIt.otf in Resources */,
+				9549F3CA0A944122AE3F933D /* SourceSerifPro-Regular.otf in Resources */,
+				298E7112517343FC9074842D /* SourceSerifPro-Semibold.otf in Resources */,
+				30D4549758F5414CBED68562 /* SourceSerifPro-SemiboldIt.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1273,12 +1326,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Debug;
@@ -1304,12 +1359,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Release;
@@ -1335,6 +1392,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Debug;
@@ -1359,6 +1417,7 @@
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Release;
@@ -1392,12 +1451,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Debug;
@@ -1431,12 +1492,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Release;
@@ -1469,12 +1532,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Debug;
@@ -1507,12 +1572,14 @@
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)\..\node_modules\react-native-gesture-handler\ios/**",
 					"$(SRCROOT)\..\node_modules\react-native-vector-icons\RNVectorIconsManager",
 					"$(SRCROOT)\..\node_modules\react-native-linear-gradient\BVLinearGradient",
+					"$(SRCROOT)\..\node_modules\react-native-maps\lib\ios/**",
 				);
 			};
 			name = Release;

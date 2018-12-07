@@ -24,7 +24,7 @@ export default class SuggestSearchList extends Component{
                     <NavBarStyle3 LeftIcon={require('../images/navbar/search.png')}
                                   Title={"Tìm kiếm"}
                                   RightIcon ={require('../images/navbar/removeICO.png')}
-                                  styleTextInput={{width: 280}} styleIconRight={{width: 14, height: 14, marginTop: 20}}/>
+                                  styleTextInput={{width: 280}} styleIconRight={{width: 14, height: 14, marginTop: 20,fontFamily: 'SourceSerifPro-Regular'}}/>
                 </View>
                 <View style={styles.container1}>
                     <View style={styles.hotSection}>
@@ -93,6 +93,7 @@ const styles = StyleSheet.create({
     },
     textStyle:{
         fontSize: 18,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

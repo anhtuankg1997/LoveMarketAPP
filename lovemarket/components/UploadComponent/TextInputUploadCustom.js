@@ -26,7 +26,7 @@ const styles= StyleSheet.create({
       width: 100+"%",
       fontSize: 14,
       color: '#000000',
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     textInputSection:{
         height: 40,
@@ -36,6 +36,7 @@ const styles= StyleSheet.create({
         fontSize: 14,
         backgroundColor: '#EBEBEB',
         padding: 0,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     line:{
         borderBottomColor: '#000000',

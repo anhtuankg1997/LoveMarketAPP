@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View, Text, Image, StyleSheet, Dimensions, TouchableOpacity} from 'react-native'
+import {View, Image, StyleSheet, Dimensions, TouchableOpacity} from 'react-native'
 import SwiperFlatList from 'react-native-swiper-flatlist';
 
 

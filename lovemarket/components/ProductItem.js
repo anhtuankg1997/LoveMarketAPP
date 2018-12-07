@@ -1,9 +1,8 @@
 import React, {Component} from 'react'
-import {} from 'react-native'
 import {View} from "react-native";
 import {Image} from "react-native";
 import {Text} from "react-native";
-import {TouchableOpacity, StyleSheet} from "react-native";
+import {StyleSheet} from "react-native";
 
 
 

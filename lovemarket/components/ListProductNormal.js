@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
     },
     title:{
         fontSize: 16,
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Semibold',
         color: '#ffffff',
         padding: 10
     },
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     },
     price:{
         fontSize: 16,
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Semibold',
         color: '#FF0007'
     },
     bottomLine:{
@@ -164,7 +164,8 @@ const styles = StyleSheet.create({
     },
     username:{
         fontSize: 12,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     sectionHeart:{
         width: 43,
@@ -182,7 +183,8 @@ const styles = StyleSheet.create({
     },
     theart:{
         fontSize: 12,
-        color: '#FD8689'
+        color: '#FD8689',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     priceIcoSize:{
         width: 10,

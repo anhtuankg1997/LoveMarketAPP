@@ -57,7 +57,7 @@ const styles =StyleSheet.create({
         flex:1, position: 'absolute', backgroundColor: 'white'
     },
     textHot:{
-        fontSize: 18, fontFamily: 'SourceSerifPro-Bold'
+        fontSize: 18, fontFamily: 'SourceSerifPro-Semibold'
     },
     textAll:{
         fontFamily: 'SourceSerifPro-Regular', fontSize: 12, color: '#8F5FAB'
@@ -74,7 +74,8 @@ const styles =StyleSheet.create({
         position: 'absolute',
         flexDirection: 'row',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     arrow:{
         width: 8,

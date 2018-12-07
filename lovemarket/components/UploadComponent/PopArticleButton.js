@@ -52,15 +52,18 @@ const styles= StyleSheet.create({
     text1:{
        fontSize: 12,
         color: '#707070',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     text2:{
        fontSize: 9,
         color: '#7A7777',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     text3:{
        marginTop: 10,
         fontSize: 10,
-        color: '#FF0007'
+        color: '#FF0007',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     askSection:{
        position: 'absolute',

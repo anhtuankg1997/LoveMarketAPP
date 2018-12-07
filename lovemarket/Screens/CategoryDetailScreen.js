@@ -71,6 +71,7 @@ const styles =StyleSheet.create({
         marginLeft: 10,
         fontSize: 12,
         color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     childCateSection:{
         width: 100+"%",

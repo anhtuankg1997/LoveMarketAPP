@@ -64,14 +64,17 @@ const styles= StyleSheet.create({
     },
     nameText:{
         fontSize: 12,
-        color: '#707070'
+        color: '#707070',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     dayText:{
         fontSize: 9,
-        color: '#7A7777'
+        color: '#7A7777',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     costText:{
         fontSize: 10,
-        color: '#FF0007'
+        color: '#FF0007',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

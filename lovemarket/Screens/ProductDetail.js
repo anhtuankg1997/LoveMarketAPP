@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, StyleSheet, StatusBar, ScrollView, Image, Text} from 'react-native'
+import {View, StyleSheet, StatusBar, ScrollView, Image, Text, TouchableOpacity} from 'react-native'
 import {NavBarStyle1} from '../components/NavigationBar/NavBar'
 
 /*
@@ -38,7 +38,10 @@ export default class ProductDetail extends Component{
                                   LeftItemEvent={()=>this.props.navigation.goBack()}
                                   Title={"Chi tiết sản phẩm"}
                                   RightItem1={require('../images/navbar/like.png')}
-                                  RightItem2={require('../images/navbar/message.png')}/>
+                                  RightItem2={require('../images/navbar/message.png')}
+                                  RightItem1Event={()=>this.props.navigation.navigate('LikeList')}
+                                  RightItem2Event={()=>this.props.navigation.navigate('MessengerScreen')}
+                    />
                 </View>
 
                 <ScrollView>
@@ -108,18 +111,28 @@ export default class ProductDetail extends Component{
 
                 <View style={styles.contactSection}>
                     <View style={styles.chatSection}>
+                        <TouchableOpacity>
+                        <View style={{width: 100+"%", height: 100+"%", justifyContent: 'center', alignItems: 'center'}}>
                         <Text style={styles.textChat}>Chat ngay</Text>
+                        </View>
+                        </TouchableOpacity>
                     </View>
                     <View style={styles.socialSection}>
+                        <TouchableOpacity>
                         <View style={styles.styleSocialS}>
                             <Image source={require('../images/productImage/ico/facebook.png')} style={styles.imageSocial}/>
                         </View>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={styles.styleSocialS}>
                             <Image source={require('../images/productImage/ico/google.png')} style={styles.imageSocial}/>
                         </View>
+                        </TouchableOpacity>
+                        <TouchableOpacity>
                         <View style={styles.styleSocialS}>
                             <Image source={require('../images/productImage/ico/phone.png')} style={styles.imageSocial}/>
                         </View>
+                        </TouchableOpacity>
                     </View>
                 </View>
 
@@ -211,7 +224,7 @@ const styles= StyleSheet.create({
     title:{
         color: '#183017',
         fontSize: 16,
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     extendInfoS:{
       width: 100+"%",
@@ -221,11 +234,13 @@ const styles= StyleSheet.create({
     },
     priceText:{
         fontSize: 16,
-        color: '#9207E5'
+        color: '#9207E5',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     timeText:{
       fontSize: 14,
-      color: 'rgba(10, 0, 0, 0.38)'
+      color: 'rgba(10, 0, 0, 0.38)',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     avatarSection:{
         width: 50,
@@ -245,6 +260,7 @@ const styles= StyleSheet.create({
     },
     starText:{
         fontSize: 16,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     expressionSection:{
         width: 100+"%",
@@ -273,14 +289,13 @@ const styles= StyleSheet.create({
     },
     userText:{
         fontSize: 16,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     chatSection:{
         width: 50+"%",
         height: 100+"%",
         backgroundColor: '#FFDD00',
-        justifyContent: 'center',
-        alignItems: 'center'
     },
     socialSection:{
         width: 50+"%",
@@ -290,7 +305,8 @@ const styles= StyleSheet.create({
     },
     textChat:{
         fontSize: 15,
-        color: '#ffffff'
+        color: '#ffffff',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     styleSocialS:{
         width: 60,
@@ -305,19 +321,20 @@ const styles= StyleSheet.create({
     },
     textHeader:{
         fontSize: 16,
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Semibold',
         color: '#183017',
         marginLeft: 10,
         marginTop: 5
     },
     exSection:{
-        width: 353,
+        width: 350,
         marginLeft: 10,
         marginTop: 5,
     },
     textEx:{
         fontSize: 16,
         color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     reportS:{
         height: 50,
@@ -332,6 +349,7 @@ const styles= StyleSheet.create({
     },
     warningText:{
         fontSize: 16,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

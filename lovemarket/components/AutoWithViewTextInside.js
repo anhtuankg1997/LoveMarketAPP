@@ -23,5 +23,6 @@ const styles = StyleSheet.create({
    } ,
     TextCS:{
         color: 'white',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

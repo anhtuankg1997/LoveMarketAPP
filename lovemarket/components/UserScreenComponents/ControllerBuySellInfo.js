@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import { Text, View, ScrollView } from 'react-native';
+import {  View, TouchableOpacity } from 'react-native';
 import { createMaterialTopTabNavigator, createAppContainer, FlatList } from "react-navigation";
 import ItemBuySell from './ItemBuySell'
 
@@ -41,7 +41,9 @@ class ListItem extends Component{
                     data={listItemBuySell}
                     renderItem={({item, index}) => {
                         return(
+                            <TouchableOpacity>
                             <ItemBuySell item={item} index={index}/>
+                            </TouchableOpacity>
                         );
                     }}
                     style={{height: 100}}
@@ -71,7 +73,7 @@ const AppNavigator = createMaterialTopTabNavigator({
             backgroundColor: '#dddddd',
         },
         labelStyle:{
-            color: '#181818',
+            color: '#181818', fontFamily: 'SourceSerifPro-Regular'
         },
     }
 });

@@ -52,11 +52,13 @@ const styles = StyleSheet.create({
     },
     textTitle:{
         fontSize: 11,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     textTime:{
         fontSize: 11,
-        color: 'rgba(24, 48, 23, 0.3)'
+        color: 'rgba(24, 48, 23, 0.3)',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 
 });

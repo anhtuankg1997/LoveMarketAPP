@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View, Text, Image, StyleSheet, TextInput, TouchableOpacity, Dimensions} from 'react-native'
+import {View, Text, Image, StyleSheet} from 'react-native'
 
 export default class  ItemBuySell extends Component{
     render() {
@@ -33,6 +33,7 @@ const styles= StyleSheet.create({
     textS:{
         marginTop: 18,
         marginLeft: 12,
-        fontSize: 17
+        fontSize: 17,
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

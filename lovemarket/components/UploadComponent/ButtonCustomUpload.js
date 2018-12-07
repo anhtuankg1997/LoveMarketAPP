@@ -45,7 +45,7 @@ const styles= StyleSheet.create({
     textS:{
        fontSize: 15,
         color:'#ffffff',
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Bold',
         marginLeft: 5
     }
 });

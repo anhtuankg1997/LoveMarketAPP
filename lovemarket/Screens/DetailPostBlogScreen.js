@@ -175,7 +175,8 @@ const styles = StyleSheet.create({
     },
     textEx:{
        fontSize: 10,
-        color: "#070707"
+        color: "#070707",
+        fontFamily: 'SourceSerifPro-Regular'
     },
     imageEx:{
        width: 300,
@@ -214,19 +215,19 @@ const styles = StyleSheet.create({
        marginLeft: 10,
         width: 100,
         fontSize: 12,
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Bold',
         color: '#390458'
     },
     timeText:{
         fontSize: 12,
         color: '#183017',
-        fontWeight: '100'
+        fontFamily: 'SourceSerifPro-Light'
     },
     countLike:{
         fontSize: 12,
         color: '#820003',
         marginLeft: 10,
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     heart:{
        width: 30,
@@ -253,7 +254,8 @@ const styles = StyleSheet.create({
     inputCmt:{
        width: 200,
         height: 40,
-        fontSize: 12
+        fontSize: 12,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     postS:{
         position: 'absolute',
@@ -262,7 +264,7 @@ const styles = StyleSheet.create({
     postCmt:{
        fontSize: 12,
         color: '#390458',
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     wrapped:{
        width: 100+"%",
@@ -297,16 +299,18 @@ const styles = StyleSheet.create({
     },
     textcomment:{
        fontSize: 12,
-        color: '#707070'
+        color: '#707070',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     reply:{
        color: '#056A00',
         marginLeft: 65,
-        fontSize: 12
+        fontSize: 12,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     username:{
        fontSize: 16,
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Bold'
     },
     avatar:{
         width: 36, height: 36, borderRadius: 18

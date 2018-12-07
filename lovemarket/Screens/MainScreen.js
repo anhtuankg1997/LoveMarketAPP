@@ -16,6 +16,10 @@ import ListLikeProductScreen from '../Screens/ListLikeProductScreen'
 import FilterScreen from '../Screens/FilterScreen'
 import PaymentScreen from '../Screens/PaymentScreen'
 import ProductDetail from '../Screens/ProductDetail'
+import MessengerScreen from '../Screens/MessengerScreen'
+import MessageDetailScreen from '../Screens/MessageDetailScreen'
+import PostBlogArticleScreen from '../Screens/PostBlogArticleScreen'
+import MyBlogSettingsScreen from '../Screens/MyBlogSettingsScreen'
 
 const AppNavigator = createBottomTabNavigator({
     Home:{
@@ -58,7 +62,8 @@ const AppNavigator = createBottomTabNavigator({
     tabBarOptions:{
         activeTintColor: '#9207E5',
         inactiveTintColor: '#9f9f9f',
-        style:{backgroundColor: '#f5f5f5', height: 54, borderTopWidth: 0}
+        style:{backgroundColor: '#f5f5f5', height: 54, borderTopWidth: 0},
+        labelStyle:{fontFamily: 'SourceSerifPro-Regular'}
     },
 });
 
@@ -77,7 +82,11 @@ const MainStack = createStackNavigator({
     CategoryDetailScreen: {screen:CategoryDetailScreen ,navigationOptions:{header:null}},
     LikeList: {screen:ListLikeProductScreen, navigationOptions:{header: null}},
     FilterScreen:{screen: FilterScreen, navigationOptions:{header: null}},
-    PaymentScreen:{screen:PaymentScreen, navigationOptions:{header: null}}
+    PaymentScreen:{screen:PaymentScreen, navigationOptions:{header: null}},
+    MessageDetailScreen: {screen: MessageDetailScreen, navigationOptions:{header: null}},
+    MessengerScreen:{screen: MessengerScreen, navigationOptions:{header: null}},
+    PostBlogArticleScreen:{screen: PostBlogArticleScreen,  navigationOptions:{header: null}},
+    MyBlogSettingsScreen:{screen: MyBlogSettingsScreen, navigationOptions:{header: null}}
 });
 
 

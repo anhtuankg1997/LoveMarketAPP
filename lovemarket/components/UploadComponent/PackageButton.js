@@ -72,15 +72,17 @@ const  styles= StyleSheet.create({
     },
     text1:{
         fontSize: 12,
-        color: '#0CF800'
+        color: '#0CF800',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     text2:{
         fontSize: 9,
-        color: '#7A7777'
+        color: '#7A7777',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     text3:{
         fontSize: 10,
         color: '#FF0007',
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     }
 });

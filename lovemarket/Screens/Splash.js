@@ -64,8 +64,7 @@ const styles= StyleSheet.create({
     loadingText:{
         fontSize: 23,
         color: 'white',
-        fontWeight: 'bold',
-        fontStyle: 'italic'
+        fontFamily: 'SourceSerifPro-BlackIt'
     },
     info:{
         width: 100+"%",
@@ -77,7 +76,7 @@ const styles= StyleSheet.create({
     textShow:{
         fontSize: 18,
         color: 'white',
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     Tleft:{
         left: 9,

@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View, Text, Image, StyleSheet, TextInput, TouchableOpacity} from 'react-native'
+import {View, Text, Image, StyleSheet, TouchableOpacity} from 'react-native'
 import { withNavigation } from 'react-navigation';
 
 class BottomNavigation extends Component{

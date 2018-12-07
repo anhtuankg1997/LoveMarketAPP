@@ -1,11 +1,9 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View, ScrollView, StatusBar, Image, TouchableOpacity} from 'react-native';
+import {StyleSheet, Text, View, ScrollView, StatusBar, Image} from 'react-native';
 import {NavBarStyle1} from '../components/NavigationBar/NavBar'
 import Advertisement from '../components/NotificationComponents/Advertisement'
 import Category from '../components/CategoryComponent/Category'
 import ProductHorizontal from '../components/ProductHorizontal'
-import {ListProductHot} from "../Data/ListProductHot";
-import ProductItem from "../components/ProductComponents/ProductItem";
 
 
 export default class App extends Component {
@@ -18,7 +16,7 @@ export default class App extends Component {
                                  Title={"Tìm kiếm"}
                                  OnPress={()=>this.props.navigation.navigate('SuggestSearch')}
                                  RightItem1Event={()=>this.props.navigation.navigate('LikeList')}
-                                 RightItem2Event={()=>this.props.navigation.navigate('ProductDetail')}
+                                 RightItem2Event={()=>this.props.navigation.navigate('MessengerScreen')}
                                  RightItem1={require('../images/navbar/like.png')}
                                  RightItem2={require('../images/navbar/message.png')}/>
                 </View>
@@ -32,7 +30,7 @@ export default class App extends Component {
                         <View style={{marginTop: 180, backgroundColor: '#0009ff', height: 160, width: 100+"%"}}>
                             <View style={styles.container1}>
                                 <View style={{marginTop: 6,marginLeft: 5, flex:1, flexDirection: 'row'}}>
-                                    <Text style={styles.textHot}> Mới, Hot</Text>
+                                    <Text style={styles.textHot}> Mới, hot</Text>
                                     <View style={styles.seeall1}>
                                         <Text style={styles.textAll}>Xem tất cả</Text>
                                         <Image source={require('../images/seeall.png')} style={styles.arrow} />
@@ -59,7 +57,7 @@ const styles = StyleSheet.create({
         flex:1, position: 'absolute', backgroundColor: 'white'
     },
     textHot:{
-        fontSize: 18, fontFamily: 'SourceSerifPro-Bold'
+        fontSize: 18, fontFamily: 'SourceSerifPro-Black'
     },
     seeall1:{
         width: 72,
@@ -77,6 +75,9 @@ const styles = StyleSheet.create({
         height: 13,
         marginLeft: 10
     },
+    textAll:{
+        fontFamily: 'SourceSerifPro-Regular'
+    }
 
 
 

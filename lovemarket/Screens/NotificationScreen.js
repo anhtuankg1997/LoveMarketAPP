@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import  {View, Text, StyleSheet, StatusBar, ScrollView, TouchableOpacity} from 'react-native'
-import Icon from 'react-native-vector-icons/FontAwesome';
-import {NavBarStyle1, NavBarStyle2} from '../components/NavigationBar/NavBar'
+import  {View, Text, StyleSheet, StatusBar, ScrollView} from 'react-native'
+import {NavBarStyle1} from '../components/NavigationBar/NavBar'
 import Advertisement from '../components/NotificationComponents/Advertisement'
 
 import NotificationItem from '../components/NotificationComponents/NotificationItem'
@@ -18,6 +17,7 @@ export default class NotificationScreen extends Component{
                                   RightItem1={require('../images/navbar/like.png')}
                                   RightItem2={require('../images/navbar/message.png')}
                                   RightItem1Event={()=>this.props.navigation.navigate('LikeList')}
+                                  RightItem2Event={()=>this.props.navigation.navigate('MessengerScreen')}
                                     />
                 </View>
 
@@ -92,7 +92,8 @@ const styles= StyleSheet.create({
         fontSize: 18,
         marginLeft: 10,
         height: 100+"%",
-        width: 100+"%"
+        width: 100+"%",
+        fontFamily: 'SourceSerifPro-Regular'
     },
     adverAct:{
         marginTop: 9

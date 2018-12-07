@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View, Text, Image, StyleSheet, TextInput, TouchableOpacity, ScrollView, Dimensions} from 'react-native'
+import {View, StyleSheet, Dimensions} from 'react-native'
 import SwiperFlatList from 'react-native-swiper-flatlist';
 import {CategoryPage1,CategoryPage2,CategoryPage3} from './CategoryPage'
 
@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 10,
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

@@ -59,11 +59,13 @@ const  styles= StyleSheet.create({
     textStyle:{
         color: 'white',
         fontSize: 15,
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Bold'
+
     },
     textStyle1:{
         color: 'white',
         fontSize: 13,
-        marginTop: 10
+        marginTop: 10,
+        fontFamily: 'SourceSerifPro-Bold'
     }
 });

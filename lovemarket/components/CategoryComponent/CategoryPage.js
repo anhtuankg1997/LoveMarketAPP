@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, StyleSheet, TouchableOpacity} from 'react-native'
+import {View, StyleSheet} from 'react-native'
 import CategoryItem from './CategoryItem'
 import {ListData1, ListData2,ListData3,ListData4,ListData5} from "../../Data/ListCategoryName";
 

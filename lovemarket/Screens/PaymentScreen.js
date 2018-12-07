@@ -6,7 +6,6 @@ import PopArticleButton from '../components/UploadComponent/PopArticleButton'
 import LabelCreateButton from '../components/UploadComponent/LabelCreateButton'
 import PackageButton from '../components/UploadComponent/PackageButton'
 import ModalDropdown from "react-native-modal-dropdown";
-import {} from "../Data/ListDropDownFilter";
 
 const POSITION= [
     'Vinaphone', 'Viettel','Mobifone', 'Vietnamobile'
@@ -158,7 +157,7 @@ export default class PaymentScreen extends Component{
                     </View>
                     <View style={styles.buttonSection}>
                         <ButtonC  name={"Thanh toán ngay".toUpperCase()}  OnPress={()=>this.setState({visible:true})}/>
-                        <ButtonC name={"Trở lại".toUpperCase()} styleContainer={{backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: 'rgba(112, 112, 112, 0.25)'}} styleText={{color:'"rgba(122, 119, 119, 0.68)"'}}/>
+                        <ButtonC OnPress={()=> this.props.navigation.goBack()} name={"Trở lại".toUpperCase()} styleContainer={{backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: 'rgba(112, 112, 112, 0.25)'}} styleText={{color:'"rgba(122, 119, 119, 0.68)"'}}/>
                     </View>
                 </ScrollView>
 
@@ -201,7 +200,7 @@ class ButtonC extends Component{
         return(
             <TouchableOpacity onPress={this.props.OnPress}>
             <View style={[{width: 100+"%", height: 30, backgroundColor: '#9B07F3', justifyContent: 'center', alignItems:'center' }, this.props.styleContainer]}>
-                <Text style={[{fontSize: 16, color:'#ffffff'},this.props.styleText]}>{this.props.name}</Text>
+                <Text style={[{fontSize: 16, color:'#ffffff', fontFamily: 'SourceSerifPro-Regular'},this.props.styleText]}>{this.props.name}</Text>
             </View>
             </TouchableOpacity>
         )
@@ -213,7 +212,7 @@ class TextInputC  extends Component{
     render(){
         return(
             <View style={styles.borderChose}>
-                <TextInput style={{width: 338, height: 40, fontSize: 15,marginLeft: 10}} />
+                <TextInput style={{width: 338, height: 40, fontSize: 15,marginLeft: 10, fontFamily: 'SourceSerifPro-Regular'}} />
             </View>
         )
     }
@@ -273,17 +272,19 @@ const styles= StyleSheet.create({
         fontSize: 18,
         color: '#7A7777',
         marginTop: 3,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     cost:{
         fontSize: 12,
         color: '#9B07F3',
-        fontWeight: 'bold',
+        fontFamily: 'SourceSerifPro-Semibold',
         marginTop: 6
     },
     time:{
         fontSize: 11,
         color: 'rgba(10, 0, 0, 0.38)',
-        marginTop: 43
+        marginTop: 43,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     sectionPopText:{
         width: 100+"%",
@@ -293,7 +294,8 @@ const styles= StyleSheet.create({
     },
     textPop:{
         fontSize: 18,
-        color: '#7A7777'
+        color: '#7A7777',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     sectionPopButton:{
         width: 360,
@@ -323,7 +325,8 @@ const styles= StyleSheet.create({
     },
     textLabel:{
         fontSize: 18,
-        color: '#7A7777'
+        color: '#7A7777',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     labelSection:{
         width: 100+"%",
@@ -338,7 +341,8 @@ const styles= StyleSheet.create({
     },
     textPackage:{
         color: '#7A7777',
-        fontSize: 18
+        fontSize: 18,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     sectionButtonPackage:{
         width: 100+"%",
@@ -349,7 +353,8 @@ const styles= StyleSheet.create({
     pay:{
         backgroundColor: '#9B07F3',
         color: '#ffffff',
-        fontSize: 16
+        fontSize: 16,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     shadow: {
         shadowColor: 'gray',
@@ -357,8 +362,7 @@ const styles= StyleSheet.create({
         shadowOpacity: 0.75,
         shadowRadius: 1,
         shadowOffset: { height: 0, width: 0 },
-        // background color must be set
-        backgroundColor : "#c3c3c3" // invisible color
+        backgroundColor : "#c3c3c3"
     },
 
     //MODAL STYLE
@@ -388,11 +392,12 @@ const styles= StyleSheet.create({
         color: '#933BD0',
         marginTop: 7,
         marginLeft: 10,
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     popupText:{
         fontSize: 15,
-        color:'#933ACF'
+        color:'#933ACF',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     buttonPopupSection:{
         width: 100+"%",

@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View,Text, StyleSheet, Image, ScrollView} from 'react-native'
+import {View, StyleSheet, Image, ScrollView} from 'react-native'
 
 const ListChild =[
     {

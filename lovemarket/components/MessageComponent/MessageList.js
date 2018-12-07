@@ -3,9 +3,13 @@ import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native'
 
 
 export default class MessageList extends Component{
+    constructor(props) {
+        super(props);
+    }
+
     render(){
         return(
-            <TouchableOpacity>
+            <TouchableOpacity onPress={this.props.OnPress}>
             <View style={styles.container}>
                 <View style={styles.avatarSection}>
                     <Image source={this.props.avatarUrl} style={styles.avatar}/>
@@ -63,13 +67,15 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         marginTop: 20,
         fontSize: 16,
-        color: '#183017'
+        color: '#183017',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     detail:{
         marginTop: 19,
         fontSize: 14,
         color: '#183017',
-        marginLeft: 10
+        marginLeft: 10,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     numMessage:{
         width: 20, height: 20,
@@ -88,6 +94,7 @@ const styles = StyleSheet.create({
         top: 6,
         fontSize: 12,
         color: '#9a9a9a',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     image:{
         width: 40,

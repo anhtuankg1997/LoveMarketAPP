@@ -1,5 +1,5 @@
 import React,{Component} from 'react'
-import {View, Text, StyleSheet, Image, TextInput} from 'react-native'
+import {View, StyleSheet, Image, TextInput} from 'react-native'
 
 
 export default class InputTextCustom extends Component{
@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
         width: 200,
         height: 40,
         fontSize: 13,
-        color:'#ffffff'
+        color:'#ffffff',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

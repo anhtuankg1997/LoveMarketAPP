@@ -1,18 +1,16 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 import {createSwitchNavigator, createAppContainer, createStackNavigator, createDrawerNavigator} from 'react-navigation'
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 import MainScreen from './Screens/MainScreen'
 import AuthLoading from './Screens/AuthLoading'
 import Login from "./Screens/Login";
 import SignUpScreen from './Screens/SignupScreen'
 import Splash from './Screens/Splash'
+
+//Test
 import AdvertisementScreen from './Screens/AdvertisementScreen'
 import BlogScreen from './Screens/BlogScreen'
 import HomeScreen from './Screens/HomeScreen'
-
-
 import ProductDetail from './Screens/ProductDetail'
 import SuggestSearchList from './Screens/SuggestSearchList'
 import UserScreen from './Screens/UserScreen'
@@ -21,14 +19,15 @@ import DetailPostBlogScreen from './Screens/DetailPostBlogScreen'
 import CategoryDetailScreen from './Screens/CategoryDetailScreen'
 import FilterScreen from './Screens/FilterScreen'
 import PaymentScreen from './Screens/PaymentScreen'
-import StaticProductNormal from './components/StaticProductNormal'
 import PostBlogArticleScreen from './Screens/PostBlogArticleScreen'
-import Test from './Screens/Test'
 import MessengerScreen from './Screens/MessengerScreen'
+import MessageDetailScreen from './Screens/MessageDetailScreen'
+import MyBlogSettingsScreen from './Screens/MyBlogSettingsScreen'
+
 
 // export default class App extends Component{
 //     render(){
-//         return<MessengerScreen/>
+//         return<MessageDetailScreen/>
 //     }
 // }
 

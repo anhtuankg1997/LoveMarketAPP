@@ -16,7 +16,7 @@ class NavBarStyle1 extends Component{
                 </TouchableOpacity>
 
                 <View style={styles.titleNavbarSection}>
-                    <Text style={styles.titleText} onPress={this.props.OnPress}>{this.props.Title}</Text>
+                    <Text style={[styles.titleText, this.props.styleTextHeader]} onPress={this.props.OnPress}>{this.props.Title}</Text>
                 </View>
 
                 <TouchableOpacity onPress={this.props.RightItem1Event}>
@@ -54,10 +54,14 @@ class NavBarStyle2 extends Component{
 //Input
 //LeftItem, InputText, RightIcon
 class NavBarStyle3 extends Component{
+    constructor(props) {
+        super(props);
+    }
+
     render(){
         return(
             <View style={styles.container}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={this.props.OnPress}>
                     <Image source={this.props.LeftIcon} style={styles.leftIcon}/>
                 </TouchableOpacity>
 
@@ -90,9 +94,38 @@ class NavBarStyle4 extends Component{
                     <Text style={styles.titleText} >{this.props.Title}</Text>
                 </View>
 
-                <View style={styles.sectionButton}>
 
+                <View style={styles.sectionButton}>
+                    <TouchableOpacity onPress={this.props.onPress}>
+                    <View style={styles.buttonStyle}>
+                        <Text style={styles.textButton}>{this.props.buttonName}</Text>
+                    </View>
+                    </TouchableOpacity>
                 </View>
+            </View>
+        );
+    }
+}
+
+//Style for detailScreen Chat
+class NavBarStyle5 extends Component{
+    constructor(props) {
+        super(props);
+    }
+
+    render(){
+        return(
+            <View style={styles.container}>
+                <TouchableOpacity onPress={this.props.OnPress}>
+                    <Image source={this.props.ImageUrl} style={styles.leftIcon}/>
+                </TouchableOpacity>
+
+                <View style={styles.usernameSection}>
+                    <Text style={styles.usernameText}>{this.props.Username}</Text>
+                    <Text style={styles.timeText}>{this.props.TimeOnline}</Text>
+                </View>
+
+
             </View>
         );
     }
@@ -104,6 +137,7 @@ module.exports={
     NavBarStyle2: NavBarStyle2,
     NavBarStyle3: NavBarStyle3,
     NavBarStyle4:NavBarStyle4,
+    NavBarStyle5: NavBarStyle5
 };
 
 const styles = StyleSheet.create({
@@ -122,7 +156,8 @@ const styles = StyleSheet.create({
     },
     titleText:{
         fontSize: 20,
-        color:'white'
+        color:'white',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     leftIcon:{
         width: 30, height:30, marginLeft: 12, marginTop: 12
@@ -143,8 +178,31 @@ const styles = StyleSheet.create({
         top: 12,
         right: 10,
         backgroundColor: '#FD8689',
-        borderRadius: 20
+        borderRadius: 20,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    usernameSection:{
+        width: 80+"%",
+        height: 100+"%",
+        marginLeft: 30
+    },
+    usernameText:{
+        fontSize: 20,
+        color: '#ffffff',
+        marginTop: 5,
+        fontFamily: 'SourceSerifPro-Regular'
+    },
+    timeText:{
+        fontSize: 10,
+        color: '#ffffff',
+        marginTop: 4
+    },
+    buttonStyle:{
+        width: 100+"%", height: 100+"%", justifyContent: 'center', alignItems: 'center'
+    },
+    textButton:{
+        color: '#ffffff', fontSize: 12, fontFamily: 'SourceSerifPro-Bold'
     }
-
 
 });

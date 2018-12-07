@@ -65,9 +65,8 @@ const styles= StyleSheet.create({
         },
         HeaderText: {
             fontSize: 12,
-            fontWeight: 'bold',
             color: '#183017',
-
+            fontFamily: 'SourceSerifPro-Semibold'
         },
         textHeaderSection: {
             width: 100 + "%",
@@ -95,7 +94,8 @@ const styles= StyleSheet.create({
             width: 310,
             fontSize: 11,
             color: '#183017',
-            lineHeight: 20
+            lineHeight: 20,
+            fontFamily: 'SourceSerifPro-Regular'
         },
         buttonSection: {
             width: 100 + "%",
@@ -114,7 +114,8 @@ const styles= StyleSheet.create({
         },
         timeText:{
                 fontSize: 10,
-            color: '#183017'
+            color: '#183017',
+            fontFamily: 'SourceSerifPro-Regular'
         }
     }
 );

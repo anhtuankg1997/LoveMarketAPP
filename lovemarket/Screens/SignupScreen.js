@@ -116,6 +116,7 @@ const styles = StyleSheet.create({
     },
     textM:{
         fontSize: 14,
-        color: 'white'
+        color: 'white',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

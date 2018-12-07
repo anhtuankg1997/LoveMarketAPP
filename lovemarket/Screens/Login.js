@@ -103,17 +103,20 @@ const styles = StyleSheet.create({
     },
     normalText:{
         fontSize: 14,
-        color:'white'
+        color:'white',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     normalText1:{
         fontSize: 13,
-        color:'white'
+        color:'white',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     underLineText:{
         fontSize: 14,
         color:'white',
         textDecorationLine: 'underline',
-        textDecorationColor: 'white'
+        textDecorationColor: 'white',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     diffLogin:{
         marginTop: 72,

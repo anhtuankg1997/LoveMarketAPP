@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import {View, Text, FlatList, AsyncStorage, Button, StatusBar, StyleSheet, ScrollView, ImageBackground, Image} from 'react-native'
+import {View, Text, StatusBar, StyleSheet, ScrollView, ImageBackground, Image, Modal} from 'react-native'
 import {NavBarStyle1} from '../components/NavigationBar/NavBar'
-import Icon from 'react-native-vector-icons/FontAwesome';
 import ModalDropdown from 'react-native-modal-dropdown';
 
 import {CATEGORY} from '../Data/ListDropDownFilter'
@@ -29,7 +28,8 @@ export default class UploadScreen extends Component{
                               Title={"Đăng tin sản phẩm"}
                               RightItem1={require('../images/navbar/like.png')}
                               RightItem2={require('../images/navbar/message.png')}
-                              RightItem1Event={()=>this.props.navigation.navigate('LikeList')}/>
+                              RightItem1Event={()=>this.props.navigation.navigate('LikeList')}
+                              RightItem2Event={()=>this.props.navigation.navigate('MessengerScreen')}/>
             </View>
             <ScrollView style={styles.main}>
                 <ImageBackground style={{flex:1}} source={require('../images/Upload/bgDT.png')}>
@@ -189,11 +189,11 @@ const styles = StyleSheet.create({
         marginLeft: 25,
         marginTop: 10
     },
-    mdPosition1:{
+    mdPosition:{
         width: 150,
-        backgroundColor: 'yellow',
         fontSize: 14,
         marginTop: 10,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     modalDropDown:{
       marginTop: 5
@@ -201,12 +201,6 @@ const styles = StyleSheet.create({
     mdPosition_dropdown:{
         width: 250,
         height: 300,
-        fontSize: 14
-    },
-    textInputStyle:{
-        fontSize: 14,
-        backgroundColor: 'white',
-        padding: 0,
     },
     buttonSection:{
         width: 100+"%",
@@ -220,16 +214,18 @@ const styles = StyleSheet.create({
     },
     title:{
         color: '#000000',
-        fontWeight: 'bold'
+        fontFamily: 'SourceSerifPro-Semibold'
     },
     textHeadUpload:{
         fontSize: 20,
-        color: '#ffffff'
+        color: '#ffffff',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     textBottomUpload:{
         fontSize: 12,
         color: '#ffffff',
         width: 244,
-        textAlign: 'center'
+        textAlign: 'center',
+        fontFamily: 'SourceSerifPro-Regular'
     }
 });

@@ -105,15 +105,18 @@ const styles = StyleSheet.create({
     usernameI:{
        fontSize: 12,
         marginLeft: 12,
-        color:'#000000'
+        color:'#000000',
+        fontFamily: 'SourceSerifPro-Regular'
     },
     costI:{
        color: '#FF0007',
-        fontSize: 12
+        fontSize: 12,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     labelI:{
        color:'#FFFFFF',
-        fontSize: 12
+        fontSize: 12,
+        fontFamily: 'SourceSerifPro-Regular'
     },
     imageQ:{
        width: 40,
