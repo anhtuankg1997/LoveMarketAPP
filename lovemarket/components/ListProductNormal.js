@@ -117,7 +117,6 @@ const styles = StyleSheet.create({
     sectionTitle:{
        width: 100+"%",
        height: 29,
-       backgroundColor:  '#9B07F3',
         marginTop: 1,
         justifyContent: 'center',
         alignItems: 'center'
@@ -125,7 +124,7 @@ const styles = StyleSheet.create({
     title:{
         fontSize: 16,
         fontFamily: 'SourceSerifPro-Semibold',
-        color: '#ffffff',
+        color: '#181818',
         padding: 10
     },
     priceContainer:{
