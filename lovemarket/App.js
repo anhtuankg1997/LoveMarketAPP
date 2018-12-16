@@ -1,4 +1,4 @@
-import React from 'react';
+import React  from 'react';
 import {createSwitchNavigator, createAppContainer, createStackNavigator, createDrawerNavigator} from 'react-navigation'
 
 import MainScreen from './Screens/MainScreen'
@@ -27,7 +27,7 @@ import MyBlogSettingsScreen from './Screens/MyBlogSettingsScreen'
 
 // export default class App extends Component{
 //     render(){
-//         return<MessageDetailScreen/>
+//         return<EmotionCategoryScreen/>
 //     }
 // }
 

@@ -20,6 +20,7 @@ import MessengerScreen from '../Screens/MessengerScreen'
 import MessageDetailScreen from '../Screens/MessageDetailScreen'
 import PostBlogArticleScreen from '../Screens/PostBlogArticleScreen'
 import MyBlogSettingsScreen from '../Screens/MyBlogSettingsScreen'
+import EmotionCategoryScreen from '../Screens/EmotionCategoryScreen'
 
 const AppNavigator = createBottomTabNavigator({
     Home:{
@@ -86,7 +87,8 @@ const MainStack = createStackNavigator({
     MessageDetailScreen: {screen: MessageDetailScreen, navigationOptions:{header: null}},
     MessengerScreen:{screen: MessengerScreen, navigationOptions:{header: null}},
     PostBlogArticleScreen:{screen: PostBlogArticleScreen,  navigationOptions:{header: null}},
-    MyBlogSettingsScreen:{screen: MyBlogSettingsScreen, navigationOptions:{header: null}}
+    MyBlogSettingsScreen:{screen: MyBlogSettingsScreen, navigationOptions:{header: null}},
+    EmotionCategoryScreen:{screen: EmotionCategoryScreen, navigationOptions:{header: null}}
 });
 
 

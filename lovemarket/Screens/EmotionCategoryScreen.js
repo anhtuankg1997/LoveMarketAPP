@@ -6,7 +6,7 @@ import ListProductNormal from '../components/ListProductNormal'
 import ProductHorizontalCategory from '../components/ProductComponents/ProductHorizontalCategory'
 import ProductHorizontalStyle2 from '../components/ProductComponents/ProductHorizontalStyle2'
 
-export default class CategoryDetailScreen extends Component{
+export default class EmotionCategoryScreen extends Component{
     render(){
         return(
             <View style={styles.container}>
@@ -14,7 +14,7 @@ export default class CategoryDetailScreen extends Component{
                 <View style={styles.header}>
                     <NavBarStyle1 LeftItemEvent={()=>this.props.navigation.goBack()}
                                   leftItem={require('../images/navbar/back.png')}
-                                  Title={"Danh mục chi tiết "}
+                                  Title={"Lọc tin theo cảm xúc"}
                                   RightItem1={require('../images/navbar/like.png')}
                                   RightItem2={require('../images/navbar/filter.png')}
                                   RightItem1Event={()=>this.props.navigation.navigate('LikeList')}
