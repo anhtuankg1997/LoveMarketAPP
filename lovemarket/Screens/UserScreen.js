@@ -34,8 +34,8 @@ export default class UserScreen extends Component{
                                     <View style={styles.sizeName}>
                                         <Text style={styles.username}>Uyên Huỳnh</Text>
                                     </View>
-                                    <TouchableOpacity onPress={()=>this.props.navigation.navigate('MyBlogSettingsScreen')}>
-                                        <Image source={require('../images/profile/settings.png')} style={styles.setting} />
+                                    <TouchableOpacity onPress={()=>this.SignOut()}>
+                                        <Image source={require('../images/LogOut.png')} style={styles.setting} />
                                     </TouchableOpacity>
                                 </View>
                                 <View style={styles.line2}>
@@ -67,10 +67,6 @@ export default class UserScreen extends Component{
                 <View style={{flex: 1, marginTop:0, backgroundColor:'#ffffff'}}>
                     <ControllerBuySellInfo/>
                 </View>
-                <View>
-                    <Button title={"Đăng xuất"} onPress={()=>this.SignOut()}/>
-                </View>
-
             </View>
         );
     }

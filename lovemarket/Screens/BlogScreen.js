@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {View, Text, StyleSheet, ScrollView, Image, TouchableOpacity, StatusBar} from 'react-native'
 
-import {NavBarStyle2} from '../components/NavigationBar/NavBar'
+import {NavBarStyle6} from '../components/NavigationBar/NavBar'
 
 import {ListDataBlogTrend, ListDataBlogMeAndFriend} from "../Data/ListDataBlog";
 
@@ -181,7 +181,10 @@ export default class BlogScreen extends Component{
             <View style={styles.container}>
                 <StatusBar backgroundColor={'#9004e5'} barStyle={'dark-content'} />
                 <View style={styles.header}>
-                    <NavBarStyle2 ImageUrl={require('../images/navbar/back.png')} Title={"Blog"}/>
+                    <NavBarStyle6 ImageUrl={require('../images/navbar/back.png')}
+                                  Title={"Blog"}
+                                  ImageRight={require('../images/setting.png')}
+                                  OnPressRight={()=>this.props.navigation.navigate('MyBlogSettingsScreen')}/>
                 </View>
 
                 <View style={styles.Main}>

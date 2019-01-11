@@ -107,6 +107,36 @@ class NavBarStyle4 extends Component{
     }
 }
 
+//Style for blog
+class NavBarStyle6 extends Component{
+    constructor(props) {
+        super(props);
+    }
+
+    render(){
+        return(
+            <View style={styles.container}>
+                <TouchableOpacity onPress={this.props.OnPress}>
+                    <Image source={this.props.ImageUrl} style={styles.leftIcon}/>
+                </TouchableOpacity>
+
+                <View style={styles.titleNavbarSection}>
+                    <Text style={styles.titleText} >{this.props.Title}</Text>
+                </View>
+
+                <View style={styles.sectionIconRight}>
+                    <TouchableOpacity onPress={this.props.OnPressRight}>
+                        <View style={styles.iconRight} >
+                            <Image source={this.props.ImageRight} style={{width: 30, height: 30}}/>
+                        </View>
+                    </TouchableOpacity>
+                </View>
+            </View>
+        );
+    }
+}
+
+
 //Style for detailScreen Chat
 class NavBarStyle5 extends Component{
     constructor(props) {
@@ -137,7 +167,8 @@ module.exports={
     NavBarStyle2: NavBarStyle2,
     NavBarStyle3: NavBarStyle3,
     NavBarStyle4:NavBarStyle4,
-    NavBarStyle5: NavBarStyle5
+    NavBarStyle5: NavBarStyle5,
+    NavBarStyle6: NavBarStyle6
 };
 
 const styles = StyleSheet.create({
@@ -182,6 +213,13 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center'
     },
+    sectionIconRight:{
+        position: 'absolute',
+        top: 12,
+        right: 10,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     usernameSection:{
         width: 80+"%",
         height: 100+"%",
@@ -203,6 +241,10 @@ const styles = StyleSheet.create({
     },
     textButton:{
         color: '#ffffff', fontSize: 12, fontFamily: 'SourceSerifPro-Bold'
+    },
+    iconRight:{
+        width: 30,
+        height: 30
     }
 
 });
